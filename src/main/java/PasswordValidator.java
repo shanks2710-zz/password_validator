@@ -70,6 +70,9 @@ public class PasswordValidator {
             return;
         }
 
+        // Print success message if all checks passed
+        System.out.println(pwdStr+" -> Success: Valid Password!");
+
         log.log(Level.INFO, "Exiting main() method of PasswordValidator class");
 
     }
